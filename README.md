@@ -1,6 +1,6 @@
 # WP Google Maps Bulk Editor
 
-This repository provides the capability of making bulk changes to maps in WP Google Maps. It was developed to satisfy a client's need to make identical, but considerable changes to every map in her WordPress site, while the developer did not have access to that sites backend. The scripts contained here automate that process.
+This repository provides the capability of making bulk changes to maps in WP Google Maps. It was developed to satisfy a client's need to make identical, but considerable changes to every map in her WordPress site, while the developer did not have access to that sites backend. The scripts here automate bulk uploads for WP Google Maps.
 
 ## To get data
 
@@ -16,7 +16,7 @@ This repository provides the capability of making bulk changes to maps in WP Goo
 * The CSV maps values to their HTML form name. You may need to inspect the form page to find the input name.
 * Change the fields you want to update (the script does not allow you to bulk update the Map Title)
 
-## Create an environments file
+## Create a .env file
 
 * USERNAME = WordPress admin username
 * PASSWORD = WordPress admin password
